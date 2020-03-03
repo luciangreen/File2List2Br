@@ -2,10 +2,6 @@
 
 Automates high distinctions for large files.
 
-# Algorithm Writer with Lists
-
-Generates random algorithms in List Prolog, which can be converted to a simple form similar to Prolog.
-
 * file2list.pl - generates files that are lists of breasonings (words that earn high distinctions) from files
 * list2br.pl - converts a list of words to breasonings
 - shows last 10 assignments with breasoning count
