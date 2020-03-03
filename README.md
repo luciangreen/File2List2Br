@@ -5,7 +5,7 @@ Automates high distinctions for large files.
 * file2list.pl - generates files that are lists of breasonings (words that earn high distinctions) from files
 * list2br.pl - converts a list of words to breasonings
 - shows last 10 assignments with breasoning count
-- asks if the user wants 64k (4000 breasonings or 50 As * 80 breasonings, * 4 for 100%, * 2 for student and to do lecturer's work, * 2 for University and an industry seen-as version) or other for an assignment
+- asks if the user wants 64k breasonings (4000 breasonings or 50 As * 80 breasonings, * 4 for 100%, * 2 for student and to do lecturer's work, * 2 for University and an industry seen-as version) or another value for an assignment
 - seamlessly tries next list, warning if past end of database, and giving error if database has been finished
 
 # Getting Started
