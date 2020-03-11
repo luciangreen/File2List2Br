@@ -2,7 +2,7 @@
 
 %% converts a list of words to br
 %% - shows last 10 assignments with br count
-%% - asks if want 64k or other for next br
+%% - asks if want 128k or other for next br
 %% - seamlessly tries next list, warning if exhausted
 
 %%:- include('mergetexttobrdict.pl').
@@ -80,9 +80,9 @@ br1_l2b(File_contents_list_term,File_contents_assignments_term1,File_contents_as
 	(repeat,write("Enter the subject and assignment number: "),
 	read_string(user_input, "\n", "\r", _NC1, NC2)),
 	
-	(repeat,write("Enter <Return> for 64k breasonings in this assignment, or the number of breasonings: "),
+	(repeat,write("Enter <Return> for 128k breasonings in this assignment, or the number of breasonings: "),
 	read_string(user_input, "\n", "\r", _NB1, NB2),split_string(NB2, "", " ", NB3),
-NB3=[NB4],(NB4=""->NB5=64000;number_string(NB5,NB4))),
+NB3=[NB4],(NB4=""->NB5=128000;number_string(NB5,NB4))),
 	
 	append(File_contents_assignments_term1,[[NC2,NB5]],File_contents_assignments_term2),
 	
