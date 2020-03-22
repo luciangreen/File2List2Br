@@ -15,7 +15,7 @@
 
 %% this file
 
-:- include('la_strings').
+:- include('../listprologinterpreter/la_strings').
 
 string(String) --> list(String).
 
