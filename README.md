@@ -61,8 +61,8 @@ Number of unique words in file: 1
 Number of unique breathsonings in dictionary: 364
 true.
 ```
-* You will be asked to breason out new words.  To save time, save `brdict1.txt` and `brdict2.txt` after searching for `Lucian Green brdict1.txt`, etc. on Google.
-* You can delete this info in the `assignment_db.txt` database later to e.g. redo and increase the breasoning number.
+* You will be asked to breason out new words.
+* You can delete this info in the `assignment_db.txt` database later to e.g. redo or increase the breasoning number and redo.
 
 ### Caution:
 
