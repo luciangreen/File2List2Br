@@ -50,9 +50,9 @@ Enter the subject and assignment number:
 ```
 * Enter the university or school subject and the info about the assignment.
 ```
-Enter <Return> for 64k breasonings in this assignment, or the number of breasonings:
+Enter <Return> for 128k breasonings in this assignment, or the number of breasonings:
 ```
-* Press `Return` for 64000 breasonings, assuming there are enough in the database (if you would like to given the reasons above) or enter another value.
+* Press `Return` for 128000 breasonings, assuming there are enough in the database (if you would like to given the reasons above) or enter another value.
 ```
 Number of words in dictionary: 11746
 Number of unique breasonings in dictionary: 662
