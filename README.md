@@ -36,8 +36,7 @@ Install Text to Breasonings Repository (https://github.com/luciangreen/Text-to-B
 * NB. You can use BBEdit to delete parts of the output and replace with `\t (tab)` so that the breasoning count can be separated from the unique breasonings in Excel, and then use replacements in BBEdit to format the list.  You can use `reverse(Input,Output).` in swipl to reverse lists.  Be careful that the filenames correspond to the correct breasoning count.
 * In the File2List2Br folder, in SWI-Prolog, enter:
 ```
-['../Text-to-Breasonings/meditationnoreplace.pl'].
-['../Text-to-Breasonings/texttobrall2'].
+['../Text-to-Breasonings/text_to_breasonings.pl'].
 ```
 * Load `list2br.pl` by entering `['list2br.pl'].` and run with the command `list2br.`.
 ```
