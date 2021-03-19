@@ -7,11 +7,8 @@
 
 %%:- include('mergetexttobrdict.pl').
 
-%%**** load:`[meditationnoreplace].`
-%% ['../Dropbox/ProgramFinder/possiblynotworking/meditationnoreplace']. 
+%%**** load:`['../Text-to-Breasonings/text_to_breasonings.pl'].`
 
-%%`['texttobrall2'].`
-%% ['../Dropbox/ProgramFinder/possiblynotworking/texttobrall2'].
 
 %% this file
 
