@@ -14,22 +14,26 @@ Please read the following instructions on how to install the project on your com
 
 # Prerequisites
 
-Install List Prolog Interpreter Repository (https://github.com/luciangreen/listprologinterpreter).
+* Please download and install SWI-Prolog for your machine at `https://www.swi-prolog.org/build/`.
 
-Install Text to Breasonings Repository (https://github.com/luciangreen/Text-to-Breasonings).
+# 1. Install manually
 
+Download <a href="http://github.com/luciangreen/File2List2Br/">this repository</a>, the <a href="https://github.com/luciangreen/listprologinterpreter">List Prolog Interpreter Repository</a> and the <a href="https://github.com/luciangreen/Text-to-Breasonings">Text to Breasonings Repository</a>.
 
-# Installation from List Prolog Package Manager (LPPM)
+# 2. Or Install from List Prolog Package Manager (LPPM)
 
-* Optionally, you can install from LPPM by installing <a href="https://www.swi-prolog.org/build/">SWI-Prolog</a> for your machine, downloading the <a href="https://github.com/luciangreen/List-Prolog-Package-Manager">LPPM Repository</a>,
+* Download the <a href="https://github.com/luciangreen/List-Prolog-Package-Manager">LPPM Repository</a>:
+
 ```
 git clone https://github.com/luciangreen/List-Prolog-Package-Manager.git
 cd List-Prolog-Package-Manager
 swipl
+['lppm'].
+lppm_install("luciangreen","File2List2Br")
+halt
 ```
-loading LPPM with `['lppm'].` then installing the package by running `lppm_install("luciangreen","File2List2Br").`.
 
-# Installing and Running File2List2Br
+# Running
 
 * Download the repositories above and save them in a single folder.
 * Save a large file in Terminal as a text file.
@@ -40,10 +44,10 @@ loading LPPM with `['lppm'].` then installing the package by running `lppm_insta
 [["t-tmp.txt",12],["a-tmp.txt",2]]
 ```
 * NB. You can use BBEdit to delete parts of the output and replace with `\t (tab)` so that the breasoning count can be separated from the unique breasonings in Excel, and then use replacements in BBEdit to format the list.  You can use `reverse(Input,Output).` in swipl to reverse lists.  Be careful that the filenames correspond to the correct breasoning count.
-* In the File2List2Br folder, in SWI-Prolog, enter:
-```
-['../Text-to-Breasonings/text_to_breasonings.pl'].
-```
+* In Shell:
+`cd File2List2Br`
+`swipl`
+`['../Text-to-Breasonings/text_to_breasonings.pl'].`
 * Load `list2br.pl` by entering `['list2br.pl'].` and run with the command `list2br.`.
 ```
 Number of breasoning databases: 2
@@ -69,7 +73,7 @@ true.
 * You will be asked to breason out new words.
 * You can delete this info in the `assignment_db.txt` database later to e.g. redo or increase the breasoning number and redo.
 
-### Caution:
+# Caution:
 
 follow instructions in <a href="https://github.com/luciangreen/listprologinterpreter/blob/master/Instructions_for_Using_texttobr(2).pl.txt">Instructions for Using texttobr(2)</a> when using texttobr, texttobr2 or mind reader to avoid medical problems.
 
