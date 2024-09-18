@@ -5,14 +5,14 @@
 %% - asks if want 128k or other for next br
 %% - seamlessly tries next list, warning if exhausted
 
-%%:- include('mergetexttobrdict.pl').
+%%:-include('mergetexttobrdict.pl').
 
 %%**** load:`['../Text-to-Breasonings/text_to_breasonings.pl'].`
 
 
 %% this file
 
-:- include('../listprologinterpreter/la_strings').
+:-include('../listprologinterpreter/la_strings.pl').
 
 string(String) --> list(String).
 

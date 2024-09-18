@@ -2,8 +2,8 @@
 
 %% converts a file to a list in filelist.txt
 
-%%:- include('mergetexttobrdict.pl').
-:- include('la_strings').
+%%:-include('mergetexttobrdict.pl').
+:-include('la_strings').
 
 string(String) --> list(String).
 
